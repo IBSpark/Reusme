@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Syed Ibad Ullah — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="identity">
+        <h1 class="name">Syed Ibad Ullah</h1>
+        <p class="role">Full Stack Developer</p>
+      </div>
+      <ul class="contacts">
+        <li>📧 <a href="mailto:mmdibad08@gmail.com">mmdibad08@gmail.com</a></li>
+        <li>📞 03159419721</li>
+        <li>📍 Peshawar</li>
+        <li>💻 <a target="_blank" href="https://github.com/IBspark">GitHub</a></li>
+        <li>🔗 <a target="_blank" href="https://www.linkedin.com/in/syedibad">LinkedIn</a></li>
+      </ul>
+    </header>
+
+    <!-- Summary -->
+    <section class="section">
+      <h2>Profile</h2>
+      <p>
+        Full Stack Developer fluent in React, Node, and MongoDB, crafting speedy, scalable web apps with JavaScript, HTML, and CSS.
+        I care about clean code, smooth user journeys, and keep learning by building projects and sharing what I discover along the way.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+      <h2>Skills</h2>
+      <ul class="tags">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React.js</li>
+        <li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>mySQL</li><li>Content Creation</li>
+      </ul>
+    </section>
+
+    <!-- Experience -->
+    <section class="section">
+      <h2>Professional Experience</h2>
+      <article class="item">
+        <div class="item-head">
+          <h3>Full Stack Developer</h3>
+          <span class="meta">ITSAWK-IT Training Center, Peshawar • 11/2024 – Present</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- Projects -->
+    <section class="section">
+      <h2>Projects</h2>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>Cricket Tournament Management Website</h3>
+          <span class="pill">Full Stack Developer (MERN Stack)</span>
+          <span class="meta">07/2025 – Present</span>
+        </div>
+        <ul>
+          <li>Developed a dynamic website to manage local cricket tournaments.</li>
+          <li>Frontend built with <strong>React.js</strong>, backend with <strong>Node.js</strong> & <strong>Express.js</strong>, and <strong>MySQL</strong> to store team stats and match records.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Education + Certifications -->
+    <section class="section two-col">
+      <div>
+        <h2>Education</h2>
+        <p><strong>Master's Degree in Computer Science</strong> — University of Peshawar (09/2021 – 06/2023)</p>
+      </div>
+      <div>
+        <h2>Courses</h2>
+        <ul>
+          <li><strong>Web Development</strong> — ITSAWK IT Training Center (07/2024 – Present, Peshawar)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Syed Ibad Ullah • Open to Full Stack Developer roles</p>
+    </footer>
+  </main>
+
+  <script>
+    // Update footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
